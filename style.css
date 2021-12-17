@@ -1,0 +1,102 @@
+/*E.G*/
+
+.b-example-divider {
+  height: 3rem;
+  
+  border-color: white;
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em black, inset 0 .125em .5em black;
+
+
+}
+/*E.G*/
+
+.bi {
+  vertical-align: -.125em;
+
+}
+
+/* makes footer matching to title */ /*E.G*/
+footer {
+  background-color: #212529;
+
+  
+
+}
+
+p {/*E.G*
+    margin-left: auto;
+    margin-right: auto; */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+  
+
+}
+
+  
+/*E.G*/
+
+.nav-item {
+  text-decoration: none;
+    line-height:4.5em;
+    margin-left: 1em;
+  position: relative;
+  left: -300px;
+
+
+
+
+}
+/* E.G */
+#logo {
+  position: relative;
+  left: -110px; 
+   width: auto; 
+  height: auto; >
+
+}
+
+/* makes  links have no underline and white sets a gap between text E.G */
+a {
+   text-decoration: none;
+    line-height:4.5em;
+    margin-left: 2em;
+   
+}
+/*E.G*/
+
+.hide { 
+  display: none; 
+}
+/*E.G*/
+
+.row {
+  text-align: center;
+
+}
+
+h1 {
+font-family: 'Red Hat Text', sans-serif;}
+/*E.G*/
+.bc {
+  position: relative;
+background-image: url("https://cdn.glitch.me/44e046d9-03f0-4368-a014-c00238579bc0/abstract-lines-and-dots-connect-on-white-background-technology-connection-digital-data-and-big-data-concept-vector.jpg?v=1639595797137");
+    
+
+}
+.bc1{
+  backround-image:url("images/bc.jpg");
+}
+
+
+input[type=button]{
+  border-radius: 4px;
+  border-color:#0066A2;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+

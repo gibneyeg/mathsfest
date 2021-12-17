@@ -83,12 +83,9 @@ font-family: 'Red Hat Text', sans-serif;}
 /*E.G*/
 .bc {
   position: relative;
-background-image: url("https://cdn.glitch.me/44e046d9-03f0-4368-a014-c00238579bc0/abstract-lines-and-dots-connect-on-white-background-technology-connection-digital-data-and-big-data-concept-vector.jpg?v=1639595797137");
+background-image: url("images/bc.jpg");
     
 
-}
-.bc1{
-  backround-image:url("images/bc.jpg");
 }
 
 

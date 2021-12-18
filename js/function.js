@@ -61,7 +61,7 @@ function game(){
 						msge = "wrong";
             winnerScores[0]++;
 
-					}else if(uGuess === 3.146){
+					}else if(uGuess === 3.1416){
 						msge = "success!";
 						//update user score
 						winnerScores[1]++;

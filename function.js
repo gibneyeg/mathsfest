@@ -134,4 +134,15 @@ function game(){
 			//give the over all scores outside the for loop
 			document.getElementById("userInfo").innerHTML = "CORRECT AWNSERS: "+winnerScores[1]      + " WRONG AWNSERS:" +winnerScores[0];
 		} //end function
-      
+      function validEmail(){
+		
+		var input = document.getElementById("emailData").value;
+		
+		var symbol = input.indexOf('@');
+		
+		if(symbol < 1){
+		document.getElementById("emailFeedback").innerHTML = "not valid";
+		}else{
+		document.getElementById("emailFeedback").innerHTML = "valid email";
+		}
+	}

@@ -29,11 +29,14 @@ footer {
 }
 .boxed {
     object-fit: cover;
-    
-
+}
+.size {
+	width: 100%;
+	height: 100%;
 }
 .colour{
     border: 5px solid #fff;
+	
 
 }
 
@@ -64,8 +67,8 @@ p {/*E.G*
 #logo {
   position: relative;
   left: -110px; 
-   width: auto; 
-  height: auto; 
+   width: 100%; 
+  height: 100%; 
 
 }
 
@@ -76,7 +79,8 @@ p {/*E.G*
    
 }
 
-/*E.G*/
+/*E.G*//*E.G*/
+
 
 .hide { 
   display: none; 
@@ -87,7 +91,8 @@ p {/*E.G*
   text-align: center;
 
 }
-/* E.G */
+/* E.G *//*E.G*/
+
 
 h1 {
 font-family: 'Red Hat Text', sans-serif;
@@ -97,7 +102,7 @@ font-family: 'Red Hat Text', sans-serif;
 /*E.G*/
 .bc {
   position: relative;
-background-image: url("https://cdn.glitch.me/44e046d9-03f0-4368-a014-c00238579bc0/abstract-lines-and-dots-connect-on-white-background-technology-connection-digital-data-and-big-data-concept-vector.jpg?v=1639595797137");
+background-image: url("images/bc.jpg");
     
 }
 /***************************************************************************************
@@ -120,7 +125,7 @@ background-image: url("https://cdn.glitch.me/44e046d9-03f0-4368-a014-c00238579bc
 ***************************************************************************************/
 .moveing {
   /* image */
-  background-image: url("https://cdn.glitch.me/44e046d9-03f0-4368-a014-c00238579bc0/931292.png?v=1639769882565");
+  background-image: url("images/bcmaths.webp");
 
   /* height */
   min-height: 400px; 

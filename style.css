@@ -46,27 +46,7 @@ p {/*E.G*
 
 }
 
-/***************************************************************************************
-* Title: <How to center a box vertically and horizontaly>
-* Author: <w3schools>
-* Code version:  .center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
- }
-* Availability: <https://www.w3schools.com/howto/howto_css_center_button.asp>
-***************************************************************************************/
 
-.centerb {  /* center for box*/ /*E.G*/
-  position: absolute;
-  top: 50;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform :translate(-50%, -50%);
-}
 
 
 /*E.G*/
@@ -85,7 +65,7 @@ p {/*E.G*
   position: relative;
   left: -110px; 
    width: auto; 
-  height: auto; >
+  height: auto; 
 
 }
 
@@ -117,7 +97,7 @@ font-family: 'Red Hat Text', sans-serif;
 /*E.G*/
 .bc {
   position: relative;
-background-image: url("images/bc.jpg");
+background-image: url("https://cdn.glitch.me/44e046d9-03f0-4368-a014-c00238579bc0/abstract-lines-and-dots-connect-on-white-background-technology-connection-digital-data-and-big-data-concept-vector.jpg?v=1639595797137");
     
 }
 /***************************************************************************************
@@ -172,24 +152,19 @@ input[value=play]{
 
 }
 /* E.G *//* changing text color*/
-.endc {
+.button {
   color:black;
     text-decoration: none;
 
-
-
-
-
-
 }
-/* D.M*/
+
 .image {
   position:relative;
   width: 200px;
   height: 200px;
 
 }
-/* D.M*/
+
 .imgage {
 	width: 20%;
 
@@ -200,3 +175,29 @@ a {/* E.G */
   
 text-decoration:none;
 }
+
+/***************************************************************************************
+* Title: <How to center a box vertically and horizontaly>
+* Author: <w3schools>
+* Code version:  .center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+* Availability: <https://www.w3schools.com/howto/howto_css_center_button.asp>
+***************************************************************************************/
+
+.blink { 
+  color: white; 
+  padding: 8px ; 
+  background-color: grey;
+  border-radius: 4px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform :translate(-50%, -50%);
+} 

@@ -29,8 +29,8 @@ function game(){
 			//play game 6 times using for loop
 			for( let i = 1; i < 7; i++){  //E.G
 				//set up random number - cGuess
-				//Math.random returns a random number between 0-1 so we multiply by 5. Math.floor rounds down to nearest whole number
-				var cGuess = Math.floor(Math.random()*5)+1;
+				//Math.random returns a random number between 0-1 so we multiply by 6. Math.floor rounds down to nearest whole number
+				var cGuess = Math.floor(Math.random()*6)+1;
         
 				//alert("Computer random guess" + cGuess); //testing line     //E.G
 				//get user guesses
